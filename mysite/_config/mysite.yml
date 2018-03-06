@@ -1,0 +1,14 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: mysite
+
+SilverStripe\i18n\i18n:
+  default_locale: de_AT
+  date_format: 'dd.MM.yyyy'
+
+SilverStripe\View\SSViewer:
+  themes:
+    - 'DemoIssue72'
+    - '$default'

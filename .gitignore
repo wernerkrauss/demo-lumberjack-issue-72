@@ -1,0 +1,22 @@
+/assets/*
+/resources
+/vendor
+
+install-frameworkmissing.html
+install.php
+web.config
+
+**/.sass-cache
+**/node_modules
+**/npm-debug.log
+!**/node_modules/_manifest_exclude
+
+# ignore cache folder
+/silverstripe-cache/
+
+# ignore .env file
+/.env
+
+#webpack scss maps
+**/*.js.map
+**/*.css.map
